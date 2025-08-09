@@ -7,10 +7,10 @@
 #include "data_manager.h"
 
 namespace ygo {
-	constexpr int DECK_MAX_SIZE = 60;
+	constexpr int DECK_MAX_SIZE = 999;
 	constexpr int DECK_MIN_SIZE = 40;
-	constexpr int EXTRA_MAX_SIZE = 15;
-	constexpr int SIDE_MAX_SIZE = 15;
+	constexpr int EXTRA_MAX_SIZE = 999;
+	constexpr int SIDE_MAX_SIZE = 999;
 	constexpr int PACK_MAX_SIZE = 1000;
 
 	constexpr int MAINC_MAX = 250;	// the limit of card_state
